@@ -1,4 +1,6 @@
 ; SUMASVARIAS.asm
+; Contiene una suma que excede los bits de un registro, en este caso ax.
+; (podría usarse en el caso del registro ah también).
 
 mov ax, 15
 add ax, 9 ;suma registro más número; AF=1 acarreo auxiliar
